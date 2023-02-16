@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		74EF5867299EA09500119225 /* GeoGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5866299EA09500119225 /* GeoGoApp.swift */; };
-		74EF5869299EA09500119225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5868299EA09500119225 /* ContentView.swift */; };
 		74EF586B299EA09600119225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EF586A299EA09600119225 /* Assets.xcassets */; };
 		74EF586F299EA09600119225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EF586E299EA09600119225 /* Preview Assets.xcassets */; };
+		74EF5878299EA16600119225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5877299EA16600119225 /* ContentView.swift */; };
+		74EF587A299EA62C00119225 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5879299EA62C00119225 /* LocationManager.swift */; };
+		74EF587C299EA94100119225 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF587B299EA94100119225 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74EF5863299EA09500119225 /* GeoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EF5866299EA09500119225 /* GeoGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGoApp.swift; sourceTree = "<group>"; };
-		74EF5868299EA09500119225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74EF586A299EA09600119225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74EF586C299EA09600119225 /* GeoGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoGo.entitlements; sourceTree = "<group>"; };
 		74EF586E299EA09600119225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74EF5877299EA16600119225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74EF5879299EA62C00119225 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		74EF587B299EA94100119225 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		74EF5865299EA09500119225 /* GeoGo */ = {
 			isa = PBXGroup;
 			children = (
+				74EF5877299EA16600119225 /* ContentView.swift */,
 				74EF5866299EA09500119225 /* GeoGoApp.swift */,
-				74EF5868299EA09500119225 /* ContentView.swift */,
+				74EF5879299EA62C00119225 /* LocationManager.swift */,
+				74EF587B299EA94100119225 /* MapView.swift */,
 				74EF586A299EA09600119225 /* Assets.xcassets */,
 				74EF586C299EA09600119225 /* GeoGo.entitlements */,
 				74EF586D299EA09600119225 /* Preview Content */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74EF5869299EA09500119225 /* ContentView.swift in Sources */,
 				74EF5867299EA09500119225 /* GeoGoApp.swift in Sources */,
+				74EF587C299EA94100119225 /* MapView.swift in Sources */,
+				74EF5878299EA16600119225 /* ContentView.swift in Sources */,
+				74EF587A299EA62C00119225 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to see users's location";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +317,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to see users's location";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
