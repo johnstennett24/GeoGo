@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "headingindicator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kiliankoe/HeadingIndicator.git",
+      "state" : {
+        "revision" : "aa273824a0b3268ac2a09a646dae50e38ec9bca1",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

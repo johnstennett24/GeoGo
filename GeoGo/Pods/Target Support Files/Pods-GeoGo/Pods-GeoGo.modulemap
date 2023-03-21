@@ -1,0 +1,6 @@
+framework module Pods_GeoGo {
+  umbrella header "Pods-GeoGo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct GeoGoApp: App {
+    let ds = DataServices()
     var body: some Scene {
         WindowGroup {
             ContentView()
