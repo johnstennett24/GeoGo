@@ -6,5 +6,7 @@ target 'GeoGo' do
   use_frameworks!
 
   # Pods for GeoGo
+	pod "SwiftyJSON"
+	pod "Alamofire"
 
 end

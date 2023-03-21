@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70ABE247ADC9C5B14A528BFD /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABEC387A0F38A964D8D3E5 /* CompassView.swift */; };
+		70ABE5B08D2293A86DE8DE9D /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABE45EDCE8FE97F2329DB8 /* CompassHeading.swift */; };
+		70ABE60817D5B6670A955145 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABEE29DB39E38305CCE206 /* LocalizationHelper.swift */; };
+		70ABEDD4426FDF6DBE7896E0 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABE9745F4DBB43771D0152 /* GeoPoint.swift */; };
+		70ABEFA772B30B763482BE6B /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABE10FCD9EF28139A1A158 /* DataServices.swift */; };
+		74D71BEF29AE7BD20023050C /* HeadingIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 74D71BEE29AE7BD20023050C /* HeadingIndicator */; };
 		74EF5867299EA09500119225 /* GeoGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5866299EA09500119225 /* GeoGoApp.swift */; };
 		74EF586B299EA09600119225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EF586A299EA09600119225 /* Assets.xcassets */; };
 		74EF586F299EA09600119225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EF586E299EA09600119225 /* Preview Assets.xcassets */; };
 		74EF5878299EA16600119225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5877299EA16600119225 /* ContentView.swift */; };
 		74EF587A299EA62C00119225 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF5879299EA62C00119225 /* LocationManager.swift */; };
 		74EF587C299EA94100119225 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF587B299EA94100119225 /* MapView.swift */; };
+		D9BDC9166092FDBF111F3A7B /* Pods_GeoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09798EAE6FD430620FFC14B6 /* Pods_GeoGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09798EAE6FD430620FFC14B6 /* Pods_GeoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ABE10FCD9EF28139A1A158 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		70ABE45EDCE8FE97F2329DB8 /* CompassHeading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		70ABE9745F4DBB43771D0152 /* GeoPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
+		70ABEC387A0F38A964D8D3E5 /* CompassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		70ABEE29DB39E38305CCE206 /* LocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
 		74EF5863299EA09500119225 /* GeoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EF5866299EA09500119225 /* GeoGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGoApp.swift; sourceTree = "<group>"; };
 		74EF586A299EA09600119225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +37,8 @@
 		74EF5877299EA16600119225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74EF5879299EA62C00119225 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		74EF587B299EA94100119225 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		888A3B2DFE1AE5AB38A870AD /* Pods-GeoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGo.release.xcconfig"; path = "Target Support Files/Pods-GeoGo/Pods-GeoGo.release.xcconfig"; sourceTree = "<group>"; };
+		AE4876E610DD252570F3EBA2 /* Pods-GeoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGo.debug.xcconfig"; path = "Target Support Files/Pods-GeoGo/Pods-GeoGo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BDC9166092FDBF111F3A7B /* Pods_GeoGo.framework in Frameworks */,
+				74D71BEF29AE7BD20023050C /* HeadingIndicator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715FEBF174867334585FDB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09798EAE6FD430620FFC14B6 /* Pods_GeoGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74EF585A299EA09500119225 = {
 			isa = PBXGroup;
 			children = (
 				74EF5865299EA09500119225 /* GeoGo */,
 				74EF5864299EA09500119225 /* Products */,
+				D7263BF170D95B5AB4A59091 /* Pods */,
+				715FEBF174867334585FDB56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,11 @@
 				74EF586A299EA09600119225 /* Assets.xcassets */,
 				74EF586C299EA09600119225 /* GeoGo.entitlements */,
 				74EF586D299EA09600119225 /* Preview Content */,
+				70ABE10FCD9EF28139A1A158 /* DataServices.swift */,
+				70ABE9745F4DBB43771D0152 /* GeoPoint.swift */,
+				70ABEC387A0F38A964D8D3E5 /* CompassView.swift */,
+				70ABEE29DB39E38305CCE206 /* LocalizationHelper.swift */,
+				70ABE45EDCE8FE97F2329DB8 /* CompassHeading.swift */,
 			);
 			path = GeoGo;
 			sourceTree = "<group>";
@@ -75,6 +107,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7263BF170D95B5AB4A59091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4876E610DD252570F3EBA2 /* Pods-GeoGo.debug.xcconfig */,
+				888A3B2DFE1AE5AB38A870AD /* Pods-GeoGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +123,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74EF5872299EA09600119225 /* Build configuration list for PBXNativeTarget "GeoGo" */;
 			buildPhases = (
+				6DD5615A1041476FD8B19C1F /* [CP] Check Pods Manifest.lock */,
 				74EF585F299EA09500119225 /* Sources */,
 				74EF5860299EA09500119225 /* Frameworks */,
 				74EF5861299EA09500119225 /* Resources */,
+				D50B188A786C6BFC93980199 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GeoGo;
+			packageProductDependencies = (
+				74D71BEE29AE7BD20023050C /* HeadingIndicator */,
+			);
 			productName = GeoGo;
 			productReference = 74EF5863299EA09500119225 /* GeoGo.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 74EF585A299EA09500119225;
+			packageReferences = (
+				74D71BED29AE7BD20023050C /* XCRemoteSwiftPackageReference "HeadingIndicator" */,
+			);
 			productRefGroup = 74EF5864299EA09500119225 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +189,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DD5615A1041476FD8B19C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50B188A786C6BFC93980199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoGo/Pods-GeoGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoGo/Pods-GeoGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoGo/Pods-GeoGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74EF585F299EA09500119225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,6 +240,11 @@
 				74EF587C299EA94100119225 /* MapView.swift in Sources */,
 				74EF5878299EA16600119225 /* ContentView.swift in Sources */,
 				74EF587A299EA62C00119225 /* LocationManager.swift in Sources */,
+				70ABEFA772B30B763482BE6B /* DataServices.swift in Sources */,
+				70ABEDD4426FDF6DBE7896E0 /* GeoPoint.swift in Sources */,
+				70ABE247ADC9C5B14A528BFD /* CompassView.swift in Sources */,
+				70ABE60817D5B6670A955145 /* LocalizationHelper.swift in Sources */,
+				70ABE5B08D2293A86DE8DE9D /* CompassHeading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +362,7 @@
 		};
 		74EF5873299EA09600119225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4876E610DD252570F3EBA2 /* Pods-GeoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -279,12 +376,17 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to see users's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Uses location to to show how far person is from vertain point\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -296,7 +398,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "John-Stennett.GeoGo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,6 +408,7 @@
 		};
 		74EF5874299EA09600119225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888A3B2DFE1AE5AB38A870AD /* Pods-GeoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,12 +422,17 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to see users's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Uses location to to show how far person is from vertain point\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -336,7 +444,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "John-Stennett.GeoGo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74D71BED29AE7BD20023050C /* XCRemoteSwiftPackageReference "HeadingIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kiliankoe/HeadingIndicator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74D71BEE29AE7BD20023050C /* HeadingIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74D71BED29AE7BD20023050C /* XCRemoteSwiftPackageReference "HeadingIndicator" */;
+			productName = HeadingIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74EF585B299EA09500119225 /* Project object */;
 }
